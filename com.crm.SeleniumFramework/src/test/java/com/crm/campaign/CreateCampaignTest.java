@@ -51,7 +51,7 @@ home.clickToCampaign(driver);
 CampaignListPage clist=new CampaignListPage(driver);
 clist.getCreateCampaign().click();
 //Assert.fail();
-
+System.out.println("Pushing the file to Framework");
 String value = elib.getExcelData("campaign", 0, 0);
 CreatingNewCampaign createCamp=new CreatingNewCampaign(driver);
 createCamp.setCampaignNameTxtBox(value);
