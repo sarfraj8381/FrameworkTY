@@ -44,7 +44,7 @@ public void createCampaignTest() throws EncryptedDocumentException, IOException
 
 	wlib.toMaximizeBrowser(driver);
 	wlib.waitForPageToLoad(driver);
-
+	System.out.println("Pushing the file to Framework");
 
 HomePage home=new HomePage(driver);
 home.clickToCampaign(driver);
